@@ -176,6 +176,7 @@ GROUP_PERMISSIONS: dict[str, tuple[str, ...]] = {
         "view_announcement",
         "change_announcement",
         "delete_announcement",
+        "view_announcementdelivery",
     ),
     "Supervisor": (
         "view_user",
@@ -185,12 +186,14 @@ GROUP_PERMISSIONS: dict[str, tuple[str, ...]] = {
         "delete_activity",
         "view_goal",
         "view_announcement",
+        "view_announcementdelivery",
     ),
     "Student": (
         "view_user",
         "view_activity",
         "view_goal",
         "view_announcement",
+        "view_announcementdelivery",
     ),
     # NOTE: Additional NQC teams
     "Treasurer": (
@@ -205,7 +208,6 @@ GROUP_PERMISSIONS: dict[str, tuple[str, ...]] = {
         "change_goal",
         "delete_goal",
         "add_announcement",
-        "view_announcement",
         "change_announcement",
         "delete_announcement",
     ),
